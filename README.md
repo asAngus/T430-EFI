@@ -8,9 +8,12 @@ USB wifi required, install necessary drivers for your USB <br />
 # USB Preparation (8 GB+)
 - Open disk utility, select USB <br />
 - Erase, Select MacOS Extended Journaled, GUID partition <br />
+![Disk Utility](/README_Images/disk_util.png)
 - Download High Sierra Installer, Through App Store or DosDude1's High Sierra Patcher (Sometimes store will download a useless 29 mb installer) <br />
 - Open Terminal: sudo /Applications/Install\ macOS\ High\ Sierra.app/Contents/Resources/createinstallmedia --nointeraction --volume /Volumes/[YOUR USB] <br />
+![Terminal](/README_Images/Term.png)
 # Clover Custom Install Options
+![Clover Select](/README_Images/Clover_select.png)
 - MAKE SURE TO SELECT YOUR USB WHEN SELECTING LOCATION <br />
 
 - Install Clover in the ESP <br />
@@ -27,6 +30,7 @@ USB wifi required, install necessary drivers for your USB <br />
   -> EmuVariableUefi-64 <br />
 	-> OsxFatBinaryDrv-64 <br />
 - Install RC scripts on target volume
+![Clover End](/README_Images/Clover_end.png)
 
 # Insert EFI folder
 Once Finished, there should be an EFI partition on your desktop <br />
@@ -48,6 +52,7 @@ EFI will be in Finder or on Desktop <br />
 - Boot the USB, in clover, select your target drive <br />
 
 # Install Clover on Your Target Drive
+- This is so you no longer need to boot with USB <br />
 - Get clover installer pkg onto your computer, I did this through USB or ethernet <br />
 - Install with the same options as the USB, this time to our target drive <br />
 - Follow "Insert EFI folder" but with the target drive instead of the USB <br />
