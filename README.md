@@ -39,7 +39,8 @@ If not: <br />
 Find EFI for your usb <br />
 - sudo diskutil mount /dev/diskXsX <br />
 EFI will be in Finder or on Desktop <br />
-If/When there is:
+
+If/When there is:<br />
 - Move **contents** of EFI folder (from this repo in EFI.zip) into this partition <br />
 
 # Install through USB
