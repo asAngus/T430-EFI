@@ -39,7 +39,8 @@ If not: <br />
 Find EFI for your usb <br />
 - sudo diskutil mount /dev/diskXsX <br />
 EFI will be in Finder or on Desktop <br />
-- Move EFI folder (from this repo) into this partition <br />
+If/When there is:
+- Move **contents** of EFI folder (from this repo in EFI.zip) into this partition <br />
 
 # Install through USB
 - Plug in USB, Boot T430, hit F12 on startup <br />
