@@ -10,6 +10,7 @@ USB wifi required, install necessary drivers for your USB <br />
 - Erase, Select MacOS Extended Journaled, GUID partition <br />
 ![Disk Utility](/README_Images/disk_util.png)
 - Download High Sierra Installer, Through App Store or DosDude1's High Sierra Patcher (Sometimes store will download a useless 29 mb installer) <br />
+LINK: https://drive.google.com/file/d/1W992CqAjQa0A1gmWubnUeUarb4B4Jo-w/view <br />
 - Open Terminal: sudo /Applications/Install\ macOS\ High\ Sierra.app/Contents/Resources/createinstallmedia --nointeraction --volume /Volumes/[YOUR USB] <br />
 ![Terminal](/README_Images/Term.png)
 # Clover Custom Install Options
