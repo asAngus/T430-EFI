@@ -1,4 +1,5 @@
 # T430-EFI
+![T430](/README_Images/T430.jpg)
 Hackintosh High Sierra for Lenovo Thinkpad T430 <br />
 Using Intel HD 4000 Graphics on i7-3520m, 250gb SSD, 1600x900 Screen <br />
 Works: (sleep, volume, fn+brightness keys, iMessage, Camera) <br />
